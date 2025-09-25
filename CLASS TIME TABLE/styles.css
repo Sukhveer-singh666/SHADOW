@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.logo img {
+  float: left;
+  margin-right: 20px;
+  display: block;
+  width: 80px;
+  height: auto;
+}
+
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+h3 {
+  margin: 0;
+  text-align: left;
+  font-size: 15px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 20px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  color:black;
+  background-color: white;
+}
+
+th, td {
+  border: 3px solid black;
+  padding: 10px;
+  text-align: center;
+  font-size: 13px;
+  vertical-align: middle;
+}
+
+th {
+  background-color: white;
+}
+
+
+tbody tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 20px;
+}
+
+.left1 {
+  text-align: left;
+}
+
+.right1 {
+  text-align: right;
+}
+
+.info {
+  margin-top: 30px;
+}
+
+.info ul {
+  color: black;  
+  padding-left: 20px;
+  font-size: 13px;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 13px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-left: 5px solid #333;
+}
