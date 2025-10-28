@@ -2,6 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/react.svg'
 import './App.css'
+import Car from './vehicle1.jsx';
+import Cards from './Cards.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,7 +30,8 @@ function App() {
       <h2><a href="#">React Hooks (useState, useEffect)</a></h2>
       <h2><a href="#">React Router Basics</a></h2>
       </ul>
-      
+      <Car/>
+      <Cards/>
       
     </>
   )
