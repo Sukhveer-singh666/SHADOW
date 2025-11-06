@@ -1,0 +1,1 @@
+- [x] Implement Login.jsx component with login form (email, password, submit button, Bootstrap styling, navigation to dashboard on submit)
