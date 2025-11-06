@@ -1,13 +1,13 @@
 import React from "react";
-import "./Cards.css";
+import "./Card.css";
 
-function Cards() {
+function Card(props)  {
  return(
-    <div className="cards">
+    <div className="card">
         <img src={props.image} alt={props.title}className="card.image" />
         <h3 className="card-title">{props.title}</h3>
         <p className="card-deseription">{props.description}</p>
     </div>
  );
 }
-export default Cards;
+export default Card;

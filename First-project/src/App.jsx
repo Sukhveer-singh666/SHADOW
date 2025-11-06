@@ -10,6 +10,7 @@ import Products from './Products.jsx';
 import Cart from './Cart.jsx';
 import Contact from './Contact.jsx';
 import Footer from './Footer.jsx';
+import Card from './Card.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +25,25 @@ function App() {
     <div><Cart/></div>
     <div><Contact/></div>
     <div><Footer/></div>
+    <div className="A">
+      <Card image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa7ECW4xHgJyeIQexegqGhxgHGknkobmD0xA&s"
+      title="React Basics"
+      description="Learn about compoments,props,and state."/>
+       <Card image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa7ECW4xHgJyeIQexegqGhxgHGknkobmD0xA&s"
+      title="React Basics"
+      description="Learn about compoments,props,and state."/>
+       <Card image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa7ECW4xHgJyeIQexegqGhxgHGknkobmD0xA&s"
+      title="React Basics"
+      description="Learn about compoments,props,and state."/>
+
+    </div>
+    
+    {/* <div>
+      <Card image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa7ECW4xHgJyeIQexegqGhxgHGknkobmD0xA&s"
+      title="React Basics"
+      description="Learn about compoments,props,and state."/>
+    </div> */}
+
     
       {/* <div>
         <a href="https://vite.dev" target="_blank">
