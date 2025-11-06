@@ -1,9 +1,13 @@
 import React from "react";
-export default function Cards() {
+import "./Cards.css";
+
+function Cards() {
  return(
-    <div>
-        <button>SUBMIT</button>
-        <h2>Creating Components</h2>
+    <div className="cards">
+        <img src={props.image} alt={props.title}className="card.image" />
+        <h3 className="card-title">{props.title}</h3>
+        <p className="card-deseription">{props.description}</p>
     </div>
  );
 }
+export default Cards;
